@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base
+namespace: curl-amsat
+namePrefix: amsat-
+commonLabels:
+  environment: amsat
+images:
+  - name: curlimages/curl
+    newName: ahmetsaz.azurecr.io/curl
+    newTag: latest

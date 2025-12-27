@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+data:
+  MONGO_ROOT_USERNAME: "admin"
+  MONGO_DATABASE: "appdb"
