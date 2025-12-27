@@ -9,4 +9,4 @@ commonLabels:
 images:
   - name: busybox
     newName: ahmetsaz.azurecr.io/busybox
-    newTag: latest
+    newTag: "1.36"
