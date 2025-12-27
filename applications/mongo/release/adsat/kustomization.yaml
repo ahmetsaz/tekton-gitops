@@ -9,4 +9,4 @@ commonLabels:
 images:
   - name: mongo
     newName: ahmetsaz.azurecr.io/mongo
-    newTag: "8.2.3"
+    newTag: "7.0"
