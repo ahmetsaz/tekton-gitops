@@ -9,4 +9,4 @@ commonLabels:
 images:
   - name: nginx
     newName: ahmetsaz.azurecr.io/nginx
-    newTag: 1.29.4
+    newTag: 1.28.1
